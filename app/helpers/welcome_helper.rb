@@ -5,7 +5,7 @@ module WelcomeHelper
     max = chars.length
     array = []
     
-    permute(array, chars, "", max).join("<br>").html_safe
+    permute(array, chars, "", max)
   end
   
   def permute(array, chars, prefix, max)
